@@ -99,11 +99,27 @@ iframe{
 }
 .video{
     text-align: center;
-    width: ;
 }
 aside{
     background-color: rgb(91, 185, 91);
     color: white;
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.421);
+}
+ul{
+    list-style-type: '\2714\00A0\00A0';
+    list-style-position: inside;
+    columns: 2;
+    padding: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer > p{
+    text-align: center;
+}
+footer >p >a{
+    color: rgba(100, 100, 255, 0.849);
+    text-decoration: none;
 }
