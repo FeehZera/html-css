@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{                                                        font-family: cursive;
+
+/*
+Medidas Absolutas
+cm, mm, in, px, pt, pc
+
+Medidas Relativas
+em, ex, rem, vw, vh, %
+
+16px geralmente = 1em
+*/
+font-size: x-large;
+font-weight: 100;
+}
+
+/*Shorthand*/
+
+p{
+  
+    /*
+font-family: ;
+font-weight: ;
+font-size: ;
+font-family: ;
+*/
+
+    /*
+    Ordem Correta ShortHand=  
+    font: font style -> font weight -> font size -> font family;
+    */
+
+    font: italic bolder 1em 'Work Sense', sans-serif;
+
+}

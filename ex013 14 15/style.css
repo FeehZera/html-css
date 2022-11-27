@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+background-color: darkslategrey;
+font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+font-family: Arial;
+}
+
+p{
+    font-family: Verdana;
+    color: rgb(150, 150, 150);
+}
+
+.proxima{
+color: blue;
+text-align: right;
+}
+
+.anterior{
+color: blue;    
+}

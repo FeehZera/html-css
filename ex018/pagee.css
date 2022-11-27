@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fff';
+    src: url('Athletic.TTF') format('truetype');
+    /*
+    Tipos de Format ()
+ 
+    -opentype (otf)
+    -true type (ttf)
+    -embedded-opentype ()
+    -truetype-aat (apple advanced typography)
+    -svg
+    */
+}
+h1{
+font-family: 'fff';
+font-size: 3em;
+font-weight: normal;
+
+}

@@ -1,0 +1,16 @@
+body{
+text-align: center;
+font-family: Verdana;
+background-color: rgb(44, 44, 44);
+color: aliceblue;
+}
+
+img{
+width: 500px;
+right: 315px;
+}
+.aaa{
+text-align: center;
+width: 80px;
+right: 80px;
+}
