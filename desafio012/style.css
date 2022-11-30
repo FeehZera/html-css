@@ -50,6 +50,7 @@ section > p {
     margin-left: 30px;
     padding: 5px 5px 5px 5px;
     text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.496);
+    border-radius: 4px;
 }
 section.normal{
     background-color: white;
@@ -59,7 +60,7 @@ section.imagem{
     height: 250px;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.604);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; 
 }
 section.imagem > p{
     display: inline-block;
