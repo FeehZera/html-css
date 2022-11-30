@@ -42,13 +42,14 @@ header a:hover, footer a:hover {
 section{
     padding-top: 10vh;
     padding-bottom: 10vh;
-    padding-left: 50px;
+    padding-left: 5px;
     line-height: 2em;
     font-family: var(--fonte3);
 }
 section > p {
-    padding-bottom: 2em;
-    padding: 5px 5px 5px 50px;
+    margin-left: 30px;
+    padding: 5px 5px 5px 5px;
+    text-shadow: 1px 0px 0px rgba(0, 0, 0, 0.496);
 }
 section.normal{
     background-color: white;
@@ -61,8 +62,8 @@ section.imagem{
     background-attachment: fixed;
 }
 section.imagem > p{
-    width: 20vw;
-    background-color: rgba(0, 0, 0, 0.349);
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.203);
 }
 #img01{
     background-image: url(imagens/background001.jpg);
