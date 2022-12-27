@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+@media print {
+    body{
+        background-image: url(../imagens/back-print.jpg); 
+        /* Desnecesario pois na impressao não aparece o background, fica branco por padrão*/
+        font-family: 'Courier New', Courier, monospace;
+        text-shadow: none;
+        color: black;
+    }
+    main::after{
+        content: 'Site criado no cursoemvideo';
+    }
+    img#phone{display: none;}
+    img#tablet{display: none;}
+    img#print{display: block;}
+    img#pc{display: none;}
+    img#tv{display: none;}
+}
