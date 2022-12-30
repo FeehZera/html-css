@@ -5,12 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Hamburg</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <span id="burger" class="material-symbols-outlined" onclick="clicMenu()">menu</span>
+        <menu id="itens">
             <ul>
                 <li><a href="#">opção 1</a></li>
                 <li><a href="#">opção 2</a></li>
@@ -29,5 +31,14 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum amet libero quibusdam temporibus id consequatur unde veritatis a neque assumenda inventore, doloremque veniam labore cumque ut? Delectus nobis totam nemo! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum illo iste, est dolorem aliquid cumque rerum accusamus minus molestias dolores perspiciatis omnis vitae tempora enim eius debitis, laboriosam voluptatibus eos?</p>
         </article>
     </main>
+    <script>
+        function clicMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           } else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
 </body>
 </html>
