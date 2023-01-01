@@ -7,8 +7,9 @@
     <title>Menu Hamburg</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <span id="burger" class="material-symbols-outlined" onclick="clicMenu()">menu</span>
@@ -32,6 +33,12 @@
         </article>
     </main>
     <script>
+
+        function mudouTamanho() if (window.innerwidth >= 768) {itens.style.diplay = 'block'}
+        else {
+            itens.style.display = 'none'
+        }
+
         function clicMenu() {
            if (itens.style.display == 'block') {
             itens.style.display = 'none'
